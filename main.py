@@ -145,7 +145,7 @@ if espnow_ready:
         print(f"Failed to send data: {e}")
 else:
     print("ESP-NOW not available, skipping send")
-
+print("Test")
 time.sleep(10)
 
 # Enter deep sleep for 15 mins (900000 milliseconds)
